@@ -1,0 +1,33 @@
+class Batter {
+	public void battersName (String text){
+		System.out.println(text);
+	}
+	public void battingAverage (double number){
+		System.out.println("Batting Average: " + number);
+	}
+	public void homeRuns (int HR){
+		System.out.println("Home Runs: " + HR);
+	}
+	public void runsBatterIn (int RBI){
+		System.out.println("RBI's: " + RBI);
+	}
+	
+}
+
+public class CallinMethods {
+
+
+	public static void main(String[] args) {
+		
+		Batter name = new Batter();
+		
+		name.battersName("Marco Scutaro");
+		name.battingAverage(.234);
+		name.homeRuns(12);
+		name.runsBatterIn(24);
+		
+			
+		
+	}
+
+}
